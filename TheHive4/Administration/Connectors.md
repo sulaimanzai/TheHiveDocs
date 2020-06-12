@@ -94,7 +94,7 @@ This configuration has to be added to TheHive `conf/application.conf` file:
 
 ```yaml
 ## MISP configuration
-# More information at https://github.com/TheHive-Project/TheHiveDocs/TheHive4/Administration/Connectors.md
+# More information at https://github.com/TheHive-Project/TheHiveDocs/blob/master/TheHive4/Administration/Connectors.md
 # Enable MISP connector
 play.modules.enabled += org.thp.thehive.connector.misp.MispModule
 misp {
